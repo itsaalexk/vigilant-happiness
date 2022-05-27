@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+        <meta charset="UTF-8">
+        <!--[if lt IE 9]>
+	    <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+        <![endif]-->
+        <meta name="description" content="Calculator">
+        <meta name="keywords" content="Calculator,Math">
+        <meta name="author" content="Alex Kononenko">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href=images/favicon.ico>
+        <link rel="stylesheet" href="main.css">
+        <!--FAVICONS-->
+        <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="manifest" href="images/site.webmanifest">
+        <!--GOOGLE FONTS-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <div class="navigation-but">
+        <nav class="menu">
+                <!--SEGURAMENTE AQUI HABRÁ QUE AGREGAR ONCLICK PARA JS-->
+                <ul>
+                    <li class="about"><a href="#"></a>|How to use|</li>
+                    <li class="about1"><a href="#"></a>|About the creator|</li>
+                    <a href="https://paypal.me/kononenko7"></a>
+                    <input class="button" type="button" value="Buy me a coffee! &#9749">
+                </ul>
+                
+        </nav>
+    </div>
+    
+    <div class="calculator">
+        <table class="calculator1">
+            <input class = "display-box" type = "text" id = "result" disabled />
+            <input class = "button-1" type = "button" value = "1" onclick = "display('1')" />
+            <input class = "button-2" type = "button" value = "2" onclick = "display('2')" />
+            <input class = "button-3" type = "button" value = "3" onclick = "display('3')" />
+            <input class = "button-4" type = "button" value = "4" onclick = "display('4')" />
+            <input class = "button-5" type = "button" value = "5" onclick = "display('5')" />
+            <input class = "button-6" type = "button" value = "6" onclick = "display('6')" />
+            <input class = "button-7" type = "button" value = "7" onclick = "display('7')" />
+            <input class = "button-8" type = "button" value = "8" onclick = "display('8')" />
+            <input class = "button-9" type = "button" value = "9" onclick = "display('9')" />
+            <input class = "button-0" type = "button" value = "0" onclick = "display('0')" />
+            <input class = "button-dot" type = "button" value = "." onclick = "display('.')" />
+            <input class = "button-equal" type = "button" value = "=" onclick = "calculate()" />
+            <input class = "button-clear" type = "button" value = "C" onclick = "clearScreen()"/>
+            <input class = "button-add" type = "button" value = "+" onclick = "calculate()" />
+            <input class = "button-mult" type = "button" value = "*" onclick = "calculate()" />
+            <input class = "button-div" type = "button" value = "/" onclick = "calculate()" />
+            <input class = "button-subst" type = "button" value = "-" onclick = "calculate()" />
+        </table>
+        
+
+    </div>
+    <footer class="footer">
+
+    </footer>
+    
+</body>
+</html>
+       
+        

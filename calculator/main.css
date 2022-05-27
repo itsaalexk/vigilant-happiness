@@ -1,0 +1,369 @@
+html{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: larger;
+    background-color:rgb(182, 182, 182);
+
+}
+body{
+    overflow-x: hidden;
+}
+
+ul li{
+    list-style: none;
+    float: left;
+    color: white;
+    
+}
+ul li:hover{
+    color:rgb(21, 196, 167);
+    transition: 0.4s;
+}
+.about{
+    position: relative;
+    top:7px;
+    left:700px;
+    cursor: pointer;
+}
+.about1{
+    position: relative;
+    top:7px;
+    left:800px;
+    cursor: pointer;
+}
+
+
+.button { 
+        background-color:rgb(21, 196, 167);
+        border-radius: 25px;
+        color: white;
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        position: absolute;
+        right: 30px;
+        top:10px;
+        font-family: 'Noto Sans', sans-serif;
+  
+        
+        
+}
+.button:hover{
+    background-color:rgb(22, 125, 216);
+    transition:0.4s;
+}
+.calculator{
+    height: 700px;
+    width: 500px;
+    border:2px rgb(255, 255, 255);
+    border-style: ridge;
+    
+    position: relative;
+    top:150px;
+    left:675px;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+
+}
+.display-box{
+    color: rgb(255, 255, 255);
+    
+    height: 120px;
+    width: 450px;
+    position: absolute;
+    top:10px;
+    right:25px;
+    z-index:2;
+}
+/*BUTTONS*/
+.button-1{
+    border-style:dotted 10px white;
+    
+    background-color:rgb(21, 99, 216);
+    height: 100px;
+    width: 150px;
+    position:absolute;
+    top:150px;
+    left:14px;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:35px;
+    color: rgb(255, 255, 255);
+}
+    .button-1:hover{
+    background-color:rgb(38, 171, 175);
+    transition: 0.2s;
+}
+.button-2{
+    
+    
+    background-color:rgb(21, 99, 216);
+    height: 100px;
+    width: 150px;
+    position:absolute;
+    top:150px;
+    left:170px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-size:35px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.button-2:hover{
+    background-color:rgb(38, 171, 175);
+    transition: 0.2s;
+}
+.button-3{
+    
+    background-color:rgb(21, 99, 216);
+    height: 100px;
+    width: 150px;
+    position:absolute;
+    top:150px;
+    right:24px;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:35px;
+    color: rgb(255, 255, 255);
+}
+
+.button-3:hover{
+    background-color:rgb(38, 171, 175);
+    transition: 0.2s;
+}
+.button-4{
+    background-color:rgb(21, 99, 216);
+    height: 100px;
+    width: 150px;
+    position:absolute;
+    top:255px;
+    left:14px;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:35px;
+    color: rgb(255, 255, 255);
+
+}
+.button-4:hover{
+    background-color:rgb(38, 171, 175);
+    transition: 0.2s;
+}
+.button-5{
+    background-color:rgb(21, 99, 216);
+    height: 100px;
+    width: 150px;
+    position:absolute;
+    top:255px;
+    left:170px;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:35px;
+    color: rgb(255, 255, 255);
+}
+.button-5:hover{
+    background-color:rgb(38, 171, 175);
+    transition: 0.2s;
+}
+.button-6{
+    background-color:rgb(21, 99, 216);
+    height: 100px;
+    width: 150px;
+    position:absolute;
+    top:255px;
+    left:325px;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:35px;
+    color: rgb(255, 255, 255);
+}
+.button-6:hover{
+    background-color:rgb(38, 171, 175);
+    transition: 0.2s;
+}
+.button-7{
+    background-color:rgb(21, 99, 216);
+    height: 100px;
+    width: 150px;
+    position:absolute;
+    top:360px;
+    left:14px;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:35px;
+    color: rgb(255, 255, 255);
+
+}
+.button-7:hover{
+    background-color:rgb(38, 171, 175);
+    transition: 0.2s;
+}
+.button-8{
+    background-color:rgb(21, 99, 216);
+    height: 100px;
+    width: 150px;
+    position:absolute;
+    top:360px;
+    left:170px;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:35px;
+    color: rgb(255, 255, 255);
+
+}
+.button-8:hover{
+    background-color:rgb(38, 171, 175);
+    transition: 0.2s;
+}
+.button-9{
+    background-color:rgb(21, 99, 216);
+    height: 100px;
+    width: 150px;
+    position:absolute;
+    top:360px;
+    left:325px;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:35px;
+    color: rgb(255, 255, 255);
+
+}
+.button-9:hover{
+    background-color:rgb(38, 171, 175);
+    transition: 0.2s;
+}
+.button-0{
+    background-color:rgb(38, 171, 175);
+    height: 100px;
+    width: 150px;
+    position:absolute;
+    top:465px;
+    left:170px;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:35px;
+    color: rgb(255, 255, 255);
+
+}
+.button-0:hover{
+    background-color:rgb(68, 89, 207);
+    transition: 0.2s;
+}
+.button-dot{
+    background-color:rgb(38, 171, 175);
+    height: 100px;
+    width: 150px;
+    position:absolute;
+    top:465px;
+    left:13px;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:35px;
+    color: rgb(255, 255, 255);
+
+}
+.button-dot:hover{
+    background-color:rgb(68, 89, 207);
+    transition: 0.2s;
+}
+.button-clear{
+    background-color:rgb(38, 171, 175);
+    height: 100px;
+    width: 150px;
+    position:absolute;
+    top:465px;
+    left:325px;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:35px;
+    color: rgb(255, 255, 255);
+
+}
+.button-clear:hover{
+    background-color:rgb(68, 89, 207);
+    transition: 0.2s;
+}
+.button-equal{
+    background-color:rgb(194, 186, 186);
+    height: 120px;
+    width: 100px;
+    position:absolute;
+    top:570px;
+    left:375px;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:35px;
+    color: rgb(255, 255, 255);
+
+}
+.button-equal:hover{
+    background-color:rgb(38, 171, 175);
+    transition: 0.2s;
+}
+.button-add{
+    background-color:rgb(194, 186, 186);
+    height: 120px;
+    width: 100px;
+    position:absolute;
+    top:570px;
+    left:270px;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:35px;
+    color: rgb(255, 255, 255);
+
+}
+.button-add:hover{
+    background-color:rgb(38, 171, 175);
+    transition: 0.2s;
+}
+.button-subst{
+    background-color:rgb(194, 186, 186);
+    height: 120px;
+    width: 100px;
+    position:absolute;
+    top:570px;
+    left:165px;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:35px;
+    color: rgb(255, 255, 255);
+
+}
+.button-subst:hover{
+    background-color:rgb(38, 171, 175);
+    transition: 0.2s;
+}
+.button-mult{
+    background-color:rgb(194, 186, 186);
+    height: 120px;
+    width: 100px;
+    position:absolute;
+    top:570px;
+    left:60px;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:35px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    height: 200px;
+    width: 100%;
+    border: 3px;
+    border-style: ridge;
+    position: absolute;
+    top: 1000px;
+    margin: 0;
+}
