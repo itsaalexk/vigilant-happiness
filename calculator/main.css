@@ -286,10 +286,10 @@ ul li:hover{
 .button-equal{
     background-color:rgb(194, 186, 186);
     height: 120px;
-    width: 100px;
+    width: 80px;
     position:absolute;
     top:570px;
-    left:375px;
+    left:394px;
     cursor: pointer;
     font-family: 'Noto Sans', sans-serif;
     font-size:35px;
@@ -303,10 +303,10 @@ ul li:hover{
 .button-add{
     background-color:rgb(194, 186, 186);
     height: 120px;
-    width: 100px;
+    width: 90px;
     position:absolute;
     top:570px;
-    left:270px;
+    left:300px;
     cursor: pointer;
     font-family: 'Noto Sans', sans-serif;
     font-size:35px;
@@ -320,10 +320,10 @@ ul li:hover{
 .button-subst{
     background-color:rgb(194, 186, 186);
     height: 120px;
-    width: 100px;
+    width: 90px;
     position:absolute;
     top:570px;
-    left:165px;
+    left:205px;
     cursor: pointer;
     font-family: 'Noto Sans', sans-serif;
     font-size:35px;
@@ -337,16 +337,43 @@ ul li:hover{
 .button-mult{
     background-color:rgb(194, 186, 186);
     height: 120px;
-    width: 100px;
+    width: 90px;
     position:absolute;
     top:570px;
-    left:60px;
+    left:110px;
     cursor: pointer;
     font-family: 'Noto Sans', sans-serif;
     font-size:35px;
     color: rgb(255, 255, 255);
 
 }
+.button-mult:hover{
+    background-color:rgb(38, 171, 175);
+    transition: 0.2s;
+}
+
+
+
+.button-div{
+    background-color:rgb(194, 186, 186);
+    height: 120px;
+    width: 90px;
+    position:absolute;
+    top:570px;
+    left:15px;
+    cursor: pointer;
+    font-family: 'Noto Sans', sans-serif;
+    font-size:35px;
+    color: rgb(255, 255, 255);
+
+}
+.button-div:hover{
+
+    background-color:rgb(38, 171, 175);
+    transition: 0.2s;
+
+}
+
 
 
 
