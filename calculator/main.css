@@ -387,12 +387,4 @@ ul li:hover{
 
 
 
-.footer{
-    height: 200px;
-    width: 100%;
-    border: 3px;
-    border-style: ridge;
-    position: absolute;
-    top: 1000px;
-    margin: 0;
-}
+
